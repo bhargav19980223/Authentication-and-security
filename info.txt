@@ -1,0 +1,17 @@
+user password in db is simply a plain text which is not very good implementation!!!!
+anyone can look at my database and se other users!!!
+
+#level-2(data base encryption)[using mongoose plugin,encrypt package,secrets]!!!
+-just scambling something (there is a key to encode the msg and then we can decode it: case study - enigma machine)
+-caesar cipher(crypti.com)[older way]
+
+#learn about enviroment variable(very useful)
+- case study:luke chadwick(accidently put api key on internet(github)
+require('dotenv').config()
+-.env file
+-git ignore (which files/folders it need to ignore while uploading)
+-we never commit node modules in github
+-
+
+
+
